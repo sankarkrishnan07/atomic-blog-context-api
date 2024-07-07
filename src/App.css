@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  margin: 0 auto;
+  max-width: 71.25rem;
+
+  .btn-dark-mode{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+body {
+  padding: 2rem;
+}
+
+.dark-mode {
+  filter: invert(100%);
+  transition: all 0.5s;
+}

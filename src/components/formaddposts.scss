@@ -1,0 +1,16 @@
+.app-form__add-posts{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem;
+    background: rgb(53, 47, 47);
+    border: 1px solid #6e5050;
+
+    input {
+        padding: .5rem;
+    }
+
+    textarea{
+        flex: 1;
+    }
+}

@@ -1,0 +1,27 @@
+.posts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem;
+    border: 1px solid #6e5050;
+
+    &-title{
+        margin: 0;
+        text-transform: capitalize;
+    }
+
+    &-body{
+        margin: 0;
+    }
+
+    &:hover{
+        background: #544545;
+    }
+}
